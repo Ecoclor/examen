@@ -1,0 +1,92 @@
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(253, 252, 251);
+}
+
+h1 {
+    padding-left: 3%;
+    color: rebeccapurple;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 50px;
+    
+}
+
+legend{
+    font-size: 18px;
+    color: white;
+}
+
+input{
+    margin-bottom: 12px;
+    margin-top: 4px;
+    padding-right: 100px;
+    border: 1px solid #6485;
+}
+
+datalist{
+    padding-right: 100px;
+}
+
+fieldset{
+    margin-right: 5000px;
+    border: 2px solid #6485;
+}
+
+#botonsubmit{
+    color: white;
+}
+
+.rojo{
+    color:red;
+}
+
+.contenedorWeb{
+    margin: 40px;
+    
+}
+
+.bordes{
+    padding: 20px;
+}
+
+.discontinuo{
+    color: rebeccapurple;
+    border-top: 1px dotted;
+    box-shadow: rebeccapurple 10px 10px 10px;
+}
+
+.colorFondo{
+    background-color: #6485;
+}
+
+#textogris{
+    color: gray;
+}
+
+.tamano{
+    font-size: 10px;
+}
+
+.divsubmit{
+    margin-left: 20px;
+}
+
+footer{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: rebeccapurple;
+}
+
+.textPurple{
+    padding-bottom: 45px ;
+    background-color: rebeccapurple;
+    padding-left: 50px;
+    color: white;
+}
+
+#espacioLeyenda{
+    padding: 5px;
+}
