@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 EXAMEN Eusebio Coca Lorenzo</title>
+    <link rel="stylesheet" href="Estilos-Formulario.css" />
+</head>
+<body>
+    
+<div>
+    <header>
+
+        <h1>Petinder</h1>
+        
+    </header>
+    
+    <div class="discontinuo"></div> 
+
+    <div class="contenedorWeb">
+        <main>
+        <article>
+
+            <h2>Hazte socio</h2>
+            <p>Colabora con Petinder haciédote socio por solo 15 euros mensuales. Con muy poco puedes ayudar mucho a nuestros amigos peludos. Además puedes comprar nuestra exclusiva camiseta por solo 10 euros que se añadirán a tu primer pago. Rellena el siguiente formulario para unirte a nosotros</p>
+
+            <form>
+                <fieldset>
+                <legend class="colorFondo" id="espacioLeyenda">Dirección</legend>
+                <label for="direccion">Nombre <span class="rojo">*</span></label><br>
+                <input
+                      type="text"
+                      id="direccion"
+                      maxlength="40"
+                      placeholder="Calle y número"
+                      title="Introduce una calle válida"
+                      required
+                    /><br />
+                    <label for="ciudad">Ciudad <span class="rojo">*</span></label><br>
+                    <input 
+                        type="text" 
+                        id="ciudad"
+                        placeholder="Ciudad"
+                        required
+                        ><br>
+                    <label for="provincia">Provincia <span class="rojo">*</span></label><br>
+                    <input 
+                        type="text" 
+                        id="provincia"
+                        placeholder="Provincia"
+                        required
+                        ><br>                       
+                    <label for="cp">Código Postal <span class="rojo">*</span></label><br>
+                    <input 
+                        type="number" 
+                        id="cp"
+                        placeholder="Código Postal"
+                        maxlength="5"
+                        pattern="[0-9]{5}"
+                        required
+                        ><br>                          
+                    <label for="pais">País</label><br>
+                    <input 
+                        type="text" 
+                        title="pais" 
+                        name="pais" 
+                        placeholder="Seleccionar"
+                        id="pais" 
+                        list="paises"/>
+                        
+                        <datalist id="paises">
+                            <option value="España">
+                            <option value="Sevilla">
+                        </datalist> 
+
+                    </fieldset>
+
+                <div class="divsubmit">
+                    <p class="tamano" id="textogris">*Todos los campos marcados son obligatorios</p>
+                    <input type="checkbox" title="confirmar" name="confirmar" value="confirmar"/><label for="confirmar" class="tamano">He leído y acepto la política de privacidad y las condicioes de uso</label><br>
+                    <input type="submit" class="colorFondo" id="botonsubmit"/>
+                </div>
+            </form>
+
+        </article>
+    </main>
+
+</div>
+
+<div class="test">
+
+    
+
+</div>
+<footer>
+
+    <p class="textPurple">2021 - Eusebio Coca Lorenzo</p>
+
+</footer>
+
+</body>
+</html>
